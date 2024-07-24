@@ -1,0 +1,5 @@
+.text-border {
+  text-shadow: 3px 3px 0 black, -3px -3px 0 black, -3px 3px 0 black,
+    3px -3px 0 black, 3px 0 0 black, -3px 0 0 black, 0 3px 0 black,
+    0 -3px 0 black;
+}
