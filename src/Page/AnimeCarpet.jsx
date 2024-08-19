@@ -1,17 +1,20 @@
-import { useState } from "react";
 import CarpetFrom from "../components/CarpetForm";
+import { ProviderIcon } from "../contexts/ContextIcom";
+import CarpetImg from "../components/CarpetImg";
 
 const AnimeCarpet = () => {
-  const [dataImg, setDataImg] = useState("");
-  const createImg = (data) => {};
   return (
     <>
-      <section className="flex flex-col">
-        <section className="flex-1"></section>
-        <div className="flex-1">
-          <CarpetFrom createImg={createImg} />
-        </div>
-      </section>
+      <ProviderIcon>
+        <section className="flex flex-col">
+          <div className="flex-1">
+            <CarpetImg />
+          </div>
+          <div className="flex-1">
+            <CarpetFrom />
+          </div>
+        </section>
+      </ProviderIcon>
     </>
   );
 };
