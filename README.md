@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 # CreateImg
 # Captura-de-Im-genes
 # Captura-de-Im-genes
+# CaptureImg
