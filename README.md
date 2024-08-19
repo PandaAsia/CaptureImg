@@ -11,3 +11,4 @@ Currently, two official plugins are available:
 # Captura-de-Im-genes
 # CaptureImg
 # CaptureImg
+# CaptureImg
