@@ -8,7 +8,7 @@ const InputColor = () => {
       <div className="flex flex-row items-center">
         <label
           htmlFor="fileColor"
-          className="pr-4 text-[#FFCCBC] font-bold select-none cursor-pointer"
+          className="pr-4 text-[#FFCCBC] font-bold select-none cursor-pointer lg:text-xs"
         >
           Selecciona el color:
         </label>
@@ -18,7 +18,7 @@ const InputColor = () => {
           id="fileColor"
           onChange={handleForm}
           value={form.fileColor}
-          className="cursor-pointer rounded-full px-2 py-[0.1rem] border-none w-40 h-10 bg-[#757575] hover:bg-[#212121] transition ease-in-out"
+          className="cursor-pointer rounded px-2 py-[0.1rem] border-none w-40 h-10 bg-[#757575] hover:bg-[#212121] transition ease-in-out"
         />
       </div>
     </>

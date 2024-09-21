@@ -9,6 +9,7 @@ const Home = () => {
         </h1>
         <section className="grid grid-cols-2 gap-x-4 gap-y-8 w-full h-full [&>a]:flex [&>a]:flex-col [&>a]:items-center [&>a]:justify-center [&>a]:border-4 [&>a]:border-[#E64A19] [&>a]:w-28 [&>a]:h-28 [&>a]:rounded-md [&>a]:m-auto [&>a]:text-[#FFCCBC] md:grid-cols-3 md:gap-16 lg:grid-cols-5 lg:gap-x-16 lg:gap-y-8">
           <ButtonMenu name={"Opcion_1"} />
+          <ButtonMenu name={"Opcion_2"} />
         </section>
       </section>
     </>

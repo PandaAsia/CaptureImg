@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const ButtonBack = () => {
   return (
     <>
-      <div className="fixed bottom-2 left-2 lg:bottom-8 lg:left-8 z-20">
+      <div className="fixed bottom-2 left-2 lg:bottom-8 lg:left-8 z-30">
         <Link to={"/"}>
           <box-icon
             type="solid"

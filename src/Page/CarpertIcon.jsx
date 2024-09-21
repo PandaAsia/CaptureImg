@@ -7,28 +7,25 @@ import InputSelect from "../components/InputSelect";
 import InputFile from "../components/InputFile";
 import InputColor from "../components/InputColor";
 import InputCheckbox from "../components/InputCheckbox";
-import ButtonBack from "../components/ButtonBack";
+import Fondo from "../components/Fondo";
 
 const CarpertIcom = () => {
   return (
     <>
-      <section className="w-full relative">
-        <section className="flex flex-col-reverse md:items-center md:pt-12 lg:flex-row lg:pt-0 lg:justify-center">
-          <FondoImag>
-            <Image01Folder />
-          </FondoImag>
-          <FondoForm>
-            <InfoForm>
-              <InputName />
-              <InputFile />
-              <InputColor />
-              <InputCheckbox />
-              <InputSelect />
-            </InfoForm>
-          </FondoForm>
-        </section>
-        <ButtonBack />
-      </section>
+      <Fondo>
+        <FondoImag>
+          <Image01Folder />
+        </FondoImag>
+        <FondoForm>
+          <InfoForm>
+            <InputName />
+            <InputFile />
+            <InputColor />
+            <InputCheckbox text={"Mostrar el sticker oculto"} />
+            <InputSelect />
+          </InfoForm>
+        </FondoForm>
+      </Fondo>
     </>
   );
 };

@@ -12,8 +12,8 @@ const InputName = () => {
         name="fileName"
         onChange={handleForm}
         value={form.fileName}
-        className="rounded py-2 px-4 box-border focus:caret-indigo-500 font-bold text-sm"
-        maxLength={23}
+        className="rounded py-2 px-4 box-border focus:caret-indigo-500 font-bold text-sm lg:text-xs lg:py-1"
+        maxLength={32}
         required
       />
     </>

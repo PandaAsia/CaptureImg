@@ -6,6 +6,7 @@ import EjemploIcon from "./Page/EjemploIcon";
 import { ProviderIcon } from "./contexts/ContextIcom";
 import Fooder from "./components/fooder";
 import Page404 from "./Page/404";
+import AnimeInfor from "./Page/AnimeInfo";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/Opcion_1" element={<CarpertIcom />} />
+                <Route path="/Opcion_2" element={<AnimeInfor />} />
                 <Route path="/Opcion_5" element={<EjemploIcon />} />
                 <Route path="*" element={<Page404 />} />
               </Routes>

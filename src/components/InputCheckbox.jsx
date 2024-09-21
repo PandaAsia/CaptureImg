@@ -1,7 +1,9 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
 import { useContext } from "react";
 import ContextIcom from "../contexts/ContextIcom";
 
-const InputCheckbox = () => {
+const InputCheckbox = ({ text }) => {
   const { form, handleForm } = useContext(ContextIcom);
   return (
     <>
@@ -12,13 +14,13 @@ const InputCheckbox = () => {
           id="fileView"
           onChange={handleForm}
           value={form.fileView}
-          className="appearance-none w-5 h-5 rounded-full bg-[#212121] cursor-pointer inline-block relative checked:bg-[#FFCCBC] checked:border-4 checked:border-[#212121] hover:bg-[#FFCCBC] hover:checked:bg-[#e61919]"
+          className="appearance-none w-5 h-5 rounded-full bg-[#212121] cursor-pointer inline-block relative checked:bg-[#FFCCBC] checked:border-4 checked:border-[#212121] hover:bg-[#FFCCBC] hover:checked:bg-[#e61919] "
         />
         <label
-          className="text-[#FFCCBC] font-bold px-2 select-none cursor-pointer"
+          className="text-[#FFCCBC] font-bold px-2 select-none cursor-pointer lg:text-xs"
           htmlFor="fileView"
         >
-          Mostrar el sticker oculto
+          {text}
         </label>
       </div>
     </>

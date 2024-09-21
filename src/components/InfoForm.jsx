@@ -13,24 +13,24 @@ const InfoForm = ({ children }) => {
   return (
     <>
       <div className="w-full h-auto">
-        <header className="w-full h-auto py-6 pb-10">
+        <header className="w-full h-auto pb-5">
           <h1 className="text-4xl font-bold text-[#FFCCBC] text-center lg:text-2xl">
             Creacion de Icon
           </h1>
         </header>
-        <form className="flex flex-col gap-6 lg:gap-4" onSubmit={handleSumbit}>
+        <form className="flex flex-col gap-6 lg:gap-2" onSubmit={handleSumbit}>
           {children}
-          <div className="flex flex-row gap-6">
+          <div className="flex flex-row gap-6 pt-4">
             <input
               type="submit"
               value="Descargar"
-              className="bg-[#FFCCBC] text-[#212121] outline outline-offset-0  outline-[#FFCCBC] font-bold rounded py-1 px-2 cursor-pointer flex-1 hover:bg-[#212121] hover:text-[#FFCCBC] hover:outline-[#212121] transition ease-in-out"
+              className="bg-[#FFCCBC] text-[#212121] outline outline-offset-0  outline-[#FFCCBC] font-bold rounded py-1 px-2 cursor-pointer flex-1 hover:bg-[#212121] hover:text-[#FFCCBC] hover:outline-[#212121] transition ease-in-out lg:text-xs"
             />
             <input
               type="reset"
               value="Limpiar"
               onClick={handleReset}
-              className="text-[#FFCCBC] outline outline-offset-0 outline-[#212121] font-bold rounded py-1 px-2 cursor-pointer flex-1 hover:text-[#212121] hover:outline-[#FFCCBC] transition ease-in-out"
+              className="text-[#FFCCBC] outline outline-offset-0 outline-[#212121] font-bold rounded py-1 px-2 cursor-pointer flex-1 hover:text-[#212121] hover:outline-[#FFCCBC] transition ease-in-out lg:text-xs"
             />
           </div>
         </form>
