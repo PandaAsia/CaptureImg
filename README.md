@@ -16,8 +16,8 @@ Desarrollé un proyecto que permite capturar imágenes y manipularlas agregando 
 
 ##Otros
 
-*dom-to-image-more
-*react-router
+* dom-to-image-more
+* react-router
 
 <h3 align="center">🌐 Contacto: </h3>
 <p align="center">
