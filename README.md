@@ -15,6 +15,7 @@ Desarrollé un proyecto que permite capturar imágenes y manipularlas agregando 
 ![Figma](https://img.shields.io/badge/-Figma-%23F7DF1C?style=flat-square&logo=figma&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)
 
 ##Otros
+
 *dom-to-image-more
 *react-router
 
